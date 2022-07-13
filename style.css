@@ -52,6 +52,7 @@ nav ul, #section5 ul{
     border: solid 1px black;
   }
 
+
   #section2{
     margin-top: 30px;
     margin-bottom: 20px;
@@ -130,32 +131,31 @@ nav ul, #section5 ul{
 
   .f-section1{
     margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex: 33%;
+    order: 3;
+    max-width:100%;
+    flex-wrap: nowrap;
   }
 
   .f-subsection1{
-    float:left;
-    width:27%;
-  }
-
-  .f-subsection1 img{
-    width: 300px;
-    height: 280px;
     float: left;
+    width: 33.33%;
+    margin: 10px;
     border: solid 5px lightblue;
-    border-radius: 20px;
-  }
-
-  .f-subsection1 p{
-    float: left;
-    border: solid 5px lightblue;
-    border-radius: 20px;
-    width: 310px;
-    height: 290px;
-    box-sizing: border-box;
-    text-align: center;
-    padding:20px;
+    border-radius: 10px;
     background-color:azure;
   }
+
+
+  .f-text {
+    text-align: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+
 
   .content{
     margin-bottom: 20px;
